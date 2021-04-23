@@ -1,6 +1,8 @@
 package ru.netology.domain;
 
 public class SharesInfo {
-    int id;
-    int count;
+    private int id;
+    private int count;
+
+    private boolean isUserReposted;
 }

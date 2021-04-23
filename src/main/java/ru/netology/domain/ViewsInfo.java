@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
 public class ViewsInfo {
-    int id;
-    int count;
+    private int id;
+    private int count;
 }
