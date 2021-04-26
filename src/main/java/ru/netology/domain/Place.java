@@ -3,7 +3,7 @@ package ru.netology.domain;
 import java.awt.font.ShapeGraphicAttribute;
 
 public class Place {
-    private int id;
+    private int PlaceId;
     private String title;
     private int latitude;
     private int longitude;

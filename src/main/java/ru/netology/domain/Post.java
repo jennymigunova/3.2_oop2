@@ -1,7 +1,7 @@
 package ru.netology.domain;
 
 public class Post {
-    private int id;
+    private int postId;
     private String text;
     private String image;
     private String link;
@@ -22,12 +22,16 @@ public class Post {
     private boolean isMarkedAsAds;
     private boolean isFavorite;
     private int postponedId;
-    private Object donut;
-    private Object geo;
-    private Object postSource;
-    private Object viewsInfo;
-    private Object repostsInfo;
-    private Object likesInfo;
-    private Object copyright;
-    private Object commentsInfo;
+    private Donut donut;
+    private Geo geo;
+    private PostSource postSource;
+    private ViewsInfo viewsInfo;
+    private SharesInfo sharesInfo;
+    private LikesInfo likesInfo;
+    private Copyright copyright;
+    private CommentsInfo commentsInfo;
+
+    private Place place;
+    private User user;
+
 }
